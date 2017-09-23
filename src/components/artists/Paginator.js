@@ -37,7 +37,7 @@ class Paginator extends Component {
     return (
       <li className={end ? 'disabled' : ''}>
         <a onClick={this.advance.bind(this)}>
-          <i className="material-icons">chevron_right</i>
+          (<i className="material-icons">chevron_right</i>)
         </a>
       </li>
     );
