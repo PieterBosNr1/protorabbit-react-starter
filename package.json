@@ -6,7 +6,9 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "NODE_ENV=production npm run clean && webpack --progress",
-    "build2": "NODE_ENV=production webpack --progress",
+    "buildmac": "NODE_ENV=production webpack --progress",
+
+    "buildwindows": "set NODE_ENV=production&& webpack --progress",
     "serve": "webpack-dev-server"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
